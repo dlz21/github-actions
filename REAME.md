@@ -1,3 +1,0 @@
-# actions
-
-GitHub Actions
