@@ -71,7 +71,7 @@ jobs:
 
     # Lint
     - name: "Line Vue"
-    run: npm run lint
+      run: npm run lint
 
     # Run test
     - name: "Test Vue"
