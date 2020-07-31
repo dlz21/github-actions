@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Add reaction 👍"
-        uses: dlz21/github-actions/github/create-or-update-comment@0.15.0
+        uses: dlz21/github-actions/github/create-or-update-comment@0.1.0
         with:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           comment-id: ${{ github.event.client_payload.github.payload.comment.id }}
@@ -120,5 +120,3 @@ jobs:
         GITHUB_TARGET_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         GITHUB_REF: ${{ github.event.client_payload.pull_request.head.ref }}
         GITHUB_OWNER: ${{ github.event.client_payload.github.payload.repository.owner.login }}
-
-  #python:
