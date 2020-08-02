@@ -19,7 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.client_payload.slash_command.arg1 == 'ping' }}
     steps:
-    # Update GitHub status for dispatch events
     - name: "Update GitHub Status for this ref"
       #if: ${{ github.event_name == 'repository_dispatch' }}
       uses: 'docker://cloudposse/github-status-updater'
