@@ -6,3 +6,4 @@ github/create-or-update-comment: github/create-or-update-comment/**
 github/create-pull-request: github/create-pull-request/**
 github/repository-dispatch: github/repository-dispatch/**
 github/slash-command-dispatch: github/slash-command-dispatch/**
+go/build: go/build/**

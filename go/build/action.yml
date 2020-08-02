@@ -1,0 +1,9 @@
+name: 'Build'
+description: 'Build Go Binaries'
+author: 'Leo Zavala <info@CREFinancial.net>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'activity'
+  color: 'blue'
