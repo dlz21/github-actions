@@ -19,7 +19,7 @@
   "homepage": "https://github.com/peter-evans/repository-dispatch#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
-    "@octokit/request": "^5.1.0"
+    "@octokit/request": "^5.6.3"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5"
